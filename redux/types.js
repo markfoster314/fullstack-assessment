@@ -1,0 +1,6 @@
+export const LOADING = "LOADING";
+export const ERROR = "ERROR";
+export const UPDATE_TRANSACTIONS = "UPDATE_TRANSACTIONS";
+export const ADD_ENTITY = "ADD_ENTITY";
+export const REMOVE_ENTITY = "REMOVE_ENTITY";
+export const UPDATE_COMPANY_TOTALS = "UPDATE_COMPANY_TOTALS";

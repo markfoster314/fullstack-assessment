@@ -8,11 +8,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "babel-preset-next": "^1.4.0",
     "next": "12.0.8",
+    "next-redux-wrapper": "^7.0.5",
+    "prop-types": "^15.8.1",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "react-redux": "^7.2.6",
+    "redux": "^4.1.2",
+    "redux-thunk": "^2.4.1",
+    "styled-components": "^5.3.3"
   },
   "devDependencies": {
+    "babel-plugin-styled-components": "^2.0.2",
     "eslint": "8.7.0",
     "eslint-config-next": "12.0.8"
   }

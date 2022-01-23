@@ -1,0 +1,14 @@
+import styled from "styled-components";
+
+const P = styled.p`
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  margin: 0 1rem;
+  cursor: pointer;
+`;
+
+export default P;
