@@ -9,8 +9,6 @@ I'm gonna go through a checklist of the technologies you should be familiar with
 
 ## Tech Stack
 
-<hr />
-
 Here's a curated list of packages used in this project. Of course, the best way to see a complete list of the dependencies is to check [package.json](https://github.com/markfoster314/neo-tax-interview/blob/master/package.json).
 
 ### Core
@@ -30,8 +28,6 @@ Here's a curated list of packages used in this project. Of course, the best way 
 - [ESLint](http://eslint.org/)
 
 ## Project Structure
-
-<hr />
 
 ## `components/`, `containers/`
 
@@ -112,8 +108,6 @@ The backend for this application is incredibly small. However, the primary purpo
 I went with redux for our state management for this application, as it is extremely flexible, popular and debuggable, with The Redux DevTools making it easy to trace when, where, why, and how the application's state changed, lets you log changes, use "time-travel debugging", and even send complete error reports to a server. This directory contains all of the logic for our redux store.
 
 ## Our Application: Behind the scenes
-
-<hr />
 
 This application's building blocks interoperate to produce a seamless application. Let's join these pieces together.
 

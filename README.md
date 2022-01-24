@@ -10,8 +10,6 @@ Mark Foster's take home assessment for neo.tax
 
 ## Installation
 
-<hr />
-
 1.  Make sure that you have the latest versions of Node.js and npm installed.
 2.  Clone this repo using `git clone --depth=1 https://github.com/markfoster314/neo-tax-interview.git <YOUR_PROJECT_NAME>`
 3.  Move to the appropriate directory: `cd <YOUR_PROJECT_NAME>`.<br />
@@ -25,8 +23,6 @@ Open up `http://localhost:5000` to see our backend, visualized with the Swagger 
 Finally, open up `http://localhost:3000` to see the example app running.
 
 ## Features
-
-<hr />
 
 <dl>
   <dt>Server Side Rendering</dt>
@@ -53,13 +49,9 @@ Each generated HTML is associated with minimal JavaScript code necessary for tha
 
 ## Documentation
 
-<hr />
-
 - [Overview of `empire-state-of-wallet`](docs/general/introduction.md): An introduction for newcomers to this project.
 - [Next.js Documentation](docs/misc/next-js.md): Boilerplate Next.js docs
 
 ## Support
-
-<hr />
 
 Please [open an issue](https://github.com/markfoster314/neo-tax-interview/issues/new) for support.
