@@ -63,6 +63,10 @@ const Transactions = styled.h1`
   font-size: 42px;
 `;
 
+const Subheader = styled.h3`
+  color: #81afdd;
+`;
+
 const ReportHeader = styled.h1`
   color: #81afdd;
   font-size: 42px;
@@ -103,6 +107,7 @@ function Home({ transactions, initTransactions, pollTransactions }) {
         <Transactions id="transactions">
           Your Transactions for <br /> the Month of January
         </Transactions>
+        <Subheader>Select all Bezos-related Companies</Subheader>
         <TransactionsList />
       </Section>
       <Section>

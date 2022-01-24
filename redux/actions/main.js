@@ -35,12 +35,9 @@ export const initTransactions = () => async (dispatch) => {
       payload: true,
     });
 
-    const apiResponse = await fetch(
-      // "https://61b3dea5af5ff70017ca20bf.mockapi.io/transactions"
-      "https://61ecac49f3011500174d21d7.mockapi.io/transactions"
-    );
+    const response = await fetch("/api/transactions");
 
-    const transactions = await apiResponse.json();
+    const transactions = await response.json();
 
     dispatch({
       type: t.UPDATE_TRANSACTIONS,
@@ -59,7 +56,6 @@ export const initTransactions = () => async (dispatch) => {
       payload: false,
     });
   } catch (error) {
-    console.log(error);
     dispatch({
       type: t.LOADING,
       payload: false,
@@ -81,12 +77,9 @@ export const initTransactions = () => async (dispatch) => {
  */
 export const pollTransactions = (prevTransactions) => async (dispatch) => {
   try {
-    const apiResponse = await fetch(
-      // "https://61b3dea5af5ff70017ca20bf.mockapi.io/transactions"
-      "https://61ecac49f3011500174d21d7.mockapi.io/transactions"
-    );
+    const response = await fetch("/api/transactions");
 
-    const transactions = await apiResponse.json();
+    const transactions = await response.json();
 
     // transactions are immutable, so either there are more transactions
     // than previous or there wasn't an update
