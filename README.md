@@ -1,34 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Empire State of Wallet
 
-## Getting Started
+Mark Foster's take home assessment for neo.tax
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- [Installation](#installation)
+- [Features](#features)
+- [Support](#support)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<hr />
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+1.  Make sure that you have the latest versions of Node.js and npm installed.
+2.  Clone this repo using `git clone --depth=1 https://github.com/markfoster314/neo-tax-interview.git <YOUR_PROJECT_NAME>`
+3.  Move to the appropriate directory: `cd <YOUR_PROJECT_NAME>`.<br />
+4.  Run `npm install` in order to install dependencies for our React front end.<br />
+5.  Move to the backend directory: `cd backend`.<br />
+6.  Run `npm install` in order to install dependencies for our Nest back end.<br />
+7.  Run `npm run start:dev` to spin up our back end.<br />
+8.  Open a new terminal, navigate to the root directory and run `npm run dev` to launch our web application.<br />
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Open up `http://localhost:5000` to see our backend, visualized with the Swagger plugin.<br />
+Finally, open up `http://localhost:3000` to see the example app running.
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+<hr />
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<dl>
+  <dt>Server Side Rendering</dt>
+  <dd>By default, Next.js pre-renders every page. This means that Next.js generates HTML for each page in advance, instead of having it all done by client-side JavaScript. Pre-rendering can result in better performance and SEO.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Each generated HTML is associated with minimal JavaScript code necessary for that page. When a page is loaded by the browser, its JavaScript code runs and makes the page fully interactive. (This process is called hydration.)</dd>
 
-## Deploy on Vercel
+  <dt>Efficient and scalable server-side code</dt>
+  <dd>Using NestJS as our Node.js framework allows for a clear architecture based on a few simple components (controllers, modules and providers). This gives great ease to split applications into microservices.</dd>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+  <dt>Instant feedback</dt>
+  <dd>Enjoy the best DX (Developer eXperience) and code your app at the speed of thought! Your saved changes to the CSS and JS are reflected instantaneously without refreshing the page. Preserve application state even when you update something in the underlying code!</dd>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+  <dt>Predictable state management</dt>
+  <dd>Unidirectional data flow allows for change logging and time travel debugging.</dd>
+
+  <dt>Next generation CSS</dt>
+  <dd>Write composable CSS that's co-located with your components for complete modularity. Unique generated class names keep the specificity low while eliminating style clashes. Ship only the styles that are on the page for the best performance.</dd>
+
+  <dt>Static code analysis</dt>
+  <dd>Focus on writing new features without worrying about formatting or code quality. With the right editor setup, your code will automatically be formatted and linted as you work.</dd>
+
+</dl>
+
+## Documentation
+
+<hr />
+
+- [Overview of `empire-state-of-wallet`](docs/general/introduction.md): An introduction for newcomers to this project.
+- [Next.js Documentation](docs/misc/next-js.md): Boilerplate Next.js docs
+
+## Support
+
+<hr />
+
+Please [open an issue](https://github.com/markfoster314/neo-tax-interview/issues/new) for support.
