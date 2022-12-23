@@ -1,6 +1,6 @@
 # Empire State of Wallet
 
-Mark Foster's take home assessment for neo.tax
+Mark Foster's full stack assessment
 
 ## Table of Contents
 
